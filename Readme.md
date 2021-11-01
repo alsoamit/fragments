@@ -1,8 +1,15 @@
-# Disclaimer
+# Disclaimer!!
 
-To use these components, you need `React Js` or `Next Js` configured with `Tailwind CSS`.
+To use these components, you need `React Js` or `Next Js` configured with `Tailwind CSS` atleast. Some components also use `Framer Motion`. The dependencies of each Component is listed in their own sections. You can opt to use them after you install those dependencies.
 
 ## Button
+
+Tech Dependencies:
+
+1. Tailwind
+2. React
+
+Component Dependencies: None
 
 Props for the Button Component
 
@@ -24,6 +31,16 @@ Say Hello
 ```
 
 ## Modal
+
+Tech Dependencies:
+
+1. Tailwind
+2. React
+
+   Component Dependencies:
+
+3. Button
+   Modal imports Button Component. Keep the Button component in the same directory as the Modal.
 
 Props for the Modal Component
 
@@ -63,4 +80,4 @@ const btns = [
 ]
 ```
 
-By default, you have a button for closing the modal. The objects in the above array will create two more buttons in the modal.
+By default, you have a button for closing the modal. The objects in the above array will create two more buttons in the footer of the modal.
