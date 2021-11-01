@@ -1,4 +1,8 @@
-# Button
+# Disclaimer
+
+To use these components, you need `React Js` or `Next Js` configured with `Tailwind CSS`.
+
+## Button
 
 Props for the Button Component
 
@@ -7,7 +11,7 @@ Props for the Button Component
 2. `onClick`
    To pass the function associated with the button.
 3. `children`
-   The children component or markup or text to displayed in the button.
+   The children component or markup or text to be displayed as the button text.
 
 ```
 <Button
@@ -19,7 +23,7 @@ Say Hello
 </Button>
 ```
 
-# Modal
+## Modal
 
 Props for the Modal Component
 
